@@ -18,12 +18,12 @@ exclude_files:
 - pkg/
 default_versions:
 - name: hwc
-  version: 4.0.0
+  version: 4.0.1
 dependencies:
 - name: hwc
-  version: 4.0.0
+  version: 4.0.1
   uri: https://github.com/lenisha/hwc/releases/download/4.0.1/hwc-4.0.1.zip
-  md5: ab04e5b20dee0c8d2bec2759333eb1fb
+  md5: 769b59b03b6cf371e9a38923e3da6db7
   cf_stacks:
   - windows2012R2
 pre_package: scripts/build.sh
