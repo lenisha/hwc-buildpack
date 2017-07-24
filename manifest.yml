@@ -22,7 +22,7 @@ default_versions:
 dependencies:
 - name: hwc
   version: 4.0.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/hwc/hwc-4.0.0-windows-amd64-ab04e5b2.zip
+  uri: https://github.com/lenisha/hwc/releases/download/4.0.1/hwc-4.0.1.zip
   md5: ab04e5b20dee0c8d2bec2759333eb1fb
   cf_stacks:
   - windows2012R2
